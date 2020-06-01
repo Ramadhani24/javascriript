@@ -1,13 +1,13 @@
 var jmlangkot = 10;
-var angkotberoperasi = 8
-var noangkot = 1;
+var angkotberoperasi = 6;
 
-while (noangkot <= angkotberoperasi){
-	console.log ('angkot no. ' + noangkot + ' beroperasi dengan baik.');
+for ( var noangkot = 1; noangkot <= jalanangkot; noangkot++){
 
-	noangkot++;
-}
-
-for ( noangkot = angkotberoperasi + 1; noangkot<= jmlangkot; noangkot++){
-	console.log ('angkot no. ' + noangkot + 'sedang tidak beroperasi');
+	if( noangkot <= 6 && noangkot !== 5 ) {
+		console.log('angkot no.' + noangkot + 'beroperasi dngan baik.');
+	} else if ( noangkot === 8 II noangkot === 10 II noangkot === 5) {
+		console.log ('angkot no.' + noangkot + ' sedang lembur')
+	} else {
+		console.log ('angkot no. ' + noangkot + 'sedang tidak beroperasi')
+	}
 }
