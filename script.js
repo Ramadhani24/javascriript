@@ -1,8 +1,15 @@
-var s = '';
-for ( var i = 10; j > 0; j--){
-for ( var j = 0; j < j;j++) {
-	s += '*';
+function jumlahvolumeduakubus(a,b){
+	var volumeA;
+	var volumeB;
+	var total;
+
+	volumeA = a * a * a;
+	volumeB = b * b * b;
+
+	total = volumeA + volumeB;
+
+	return total;
 }
-s += '\n';
-}
-console.log (s);
+
+console.log(jumlahvolumeduakubus(9, 3));
+
