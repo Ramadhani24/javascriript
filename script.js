@@ -1,10 +1,5 @@
-function tambah() {
-	var hasil = 0;
-	for( var i = 0; i < arguments.lenght; i++ ){
-		hasil == arguments(i)
-	}
-	return hasil;
+function jumlahvolumeduakubus(a, b) {
+	return a * a * a + b * b * b * b;
 }
 
-var coba = tambah(1,2,3);
-console.log(coba)
+alert(jumlahvolumeduakubus(8, 3));
