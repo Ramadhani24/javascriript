@@ -1,5 +1,8 @@
-function jumlahvolumeduakubus(a, b) {
-	return a * a * a + b * b * b * b;
+var a = 1;
+
+function tes() {
+	console.log();
 }
 
-alert(jumlahvolumeduakubus(8, 3));
+tes(a);
+console.log
