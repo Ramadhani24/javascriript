@@ -1,8 +1,7 @@
-var a = 1;
-
-function tes() {
-	console.log();
+function tampilangka(n) {
+	if( n=== 0) return;
+	console.log
+	return tampilangka(n-1)
 }
 
-tes(a);
-console.log
+tampilangka(10)
