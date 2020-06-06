@@ -28,15 +28,25 @@
 // 1.join
 
 // 2.menghapus isi aray
-var arr = ["sandhika, galih, nofa, "];
+//var arr = ["sandhika, galih, nofa, "];
 // 1. join
 //console.log(arr.join())
 // 2. push & pop
 //arr.push('doddy','fitri')
 // arr.pop();
 // arr.pop();
-console.log(arr.join(' - '));
+// console.log(arr.join(' - '));
 
 // 3.unsihift& shift
 // arr.unsihift('doddy')
-console.log(arr.join(' - '));
+// console.log(arr.join(' - '));
+
+// var arr ('sandhika','galih', 'nofa')
+//4.splice
+// splice(indexawal, maudihapusberapa,elemenbaru1, elemnbaru2,...)
+// arr.splice(1, w, 'doddy', 'fitri');
+
+// 5.silde 
+// silde(aawal.akhir);
+var arr = ['sandhika', 'galih', 'nofa', 'doddy','fitri'];
+console.log(arr.join (' - '));
