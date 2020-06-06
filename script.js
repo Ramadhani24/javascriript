@@ -48,5 +48,29 @@
 
 // 5.silde 
 // silde(aawal.akhir);
-var arr = ['sandhika', 'galih', 'nofa', 'doddy','fitri'];
-console.log(arr.join (' - '));
+// var arr = ['sandhika', 'galih', 'nofa', 'doddy','fitri'];
+// console.log(arr.join (' - '));
+
+
+// 6. foreach
+// var angka =[1,2,3,4,5,6,7,8];
+// var nama = ['sandhika', 'galih', 'nofa'];
+// for( var = i = 0; i < angka.lenght; i++){
+	// console.log(angka[i]);
+//}
+// nama.foreach{
+//console.log('mahasiswa ke-' + (i+1) + 'adalah:' + e);
+// }
+
+// 7.map
+// var angka = {1,2,5,3,6,8,4}
+// angka.map(function(e){
+//	return e :
+// });
+// console.log(angka.join(' - '))
+
+// 8. short
+var angka = [1,2.10,5,20,3,6,8,4]
+angka.sort();
+console.log(angka.join(' - '))
+
