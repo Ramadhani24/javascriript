@@ -70,7 +70,12 @@
 // console.log(angka.join(' - '))
 
 // 8. short
-var angka = [1,2.10,5,20,3,6,8,4]
-angka.sort();
-console.log(angka.join(' - '))
+// var angka = [1,2.10,5,20,3,6,8,4]
+// angka.sort();
+// console.log(angka.join(' - '))
 
+// 9.filter & find
+var angka = [1,2,10,5,20,3,6,8,4];
+var angka 2 = angka.find(function(x){x
+});
+console.log(angka2);
