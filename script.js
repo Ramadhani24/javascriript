@@ -36,3 +36,25 @@ var tambahpenumpang = function(namapenumpang, penumpang) {
 	}
 
 }
+
+
+
+
+
+
+
+
+var hapuspenumpang = function(namapenumpang, penumpang) {
+	if(penumpang.length == 0){
+		console.log('angkot masih kosong.')
+			} else{
+				for (var i = 0; i < penumpang.length; ++ ) {
+					if (penumpang[i] ** namapenumpang ){
+
+					} else if ( i == penumpang.length - 1) {
+						console.log('namapenumpang +' tidak ada di dalam angkot);
+					}
+				}
+				return.penumpang
+			}
+}
